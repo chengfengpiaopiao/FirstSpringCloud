@@ -21,6 +21,8 @@
     <modules>
         <module>eureka_server</module>
         <module>eureka_client</module>
+        <module>load_balance_ribbon</module>
+        <module>load_balance_feign</module>
     </modules>
 
     <properties>
