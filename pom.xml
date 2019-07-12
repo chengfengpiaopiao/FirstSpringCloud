@@ -24,6 +24,11 @@
         <module>load_balance_ribbon</module>
         <module>load_balance_feign</module>
         <module>service_zuul</module>
+        <module>service_config</module>
+        <module>service_config_server</module>
+        <module>service_coinfig_eureka_server</module>
+        <module>c_zipkin</module>
+        <module>c_zipkin_other</module>
     </modules>
 
     <properties>

@@ -19,6 +19,6 @@ public class RebbionHelloService {
     RestTemplate mRestTemplate;
 
     public String providerHiService(String name){
-        return mRestTemplate.getForObject("http://SERVICE-HI/hi?name=+name",String.class);
+        return mRestTemplate.getForObject("http://SERVICE-HI/hi?name=" + name,String.class);
     }
 }
