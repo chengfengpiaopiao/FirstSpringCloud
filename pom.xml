@@ -30,6 +30,7 @@
         <module>c_zipkin</module>
         <module>c_zipkin_other</module>
         <module>c_mysql_config</module>
+        <module>c_kafka_producer</module>
     </modules>
 
     <properties>
